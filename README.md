@@ -1,14 +1,3 @@
-# hashworld-paper01
-
-
-### Paper Overleaf Link:
-
-Version on Overleaf may be ahead of this repo:
-[Overleaf Link](https://v2.overleaf.com/read/mkbyzbtzynbz)
-
-
-    
-
 # 实验
 
 ## 实验目的
