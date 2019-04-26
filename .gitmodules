@@ -1,0 +1,3 @@
+[submodule "src/webapi/oatpp"]
+	path = src/webapi/oatpp
+	url = https://github.com/oatpp/oatpp

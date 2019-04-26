@@ -1,0 +1,14 @@
+{
+  "peers": [
+    {
+      "ip": "127.0.0.1",
+      "publicKey": "123456789",
+      "connectTo": false
+    },
+    {
+      "ip": "10.2.100.0",
+      "publicKey": "987654321",
+      "connectTo": true
+    }
+  ]
+}

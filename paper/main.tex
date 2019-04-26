@@ -1,0 +1,109 @@
+\documentclass{article}
+
+% if you need to pass options to natbib, use, e.g.:
+% \PassOptionsToPackage{numbers, compress}{natbib}
+% before loading nips_2016
+%
+% to avoid loading the natbib package, add option nonatbib:
+% \usepackage[nonatbib]{nips_2016}
+
+%\usepackage{nips_2016}
+
+% to compile a camera-ready version, add the [final] option, e.g.:
+\usepackage[final]{nips_2016}
+
+\usepackage[utf8]{inputenc} % allow utf-8 input
+\usepackage[T1]{fontenc}    % use 8-bit T1 fonts
+\usepackage{hyperref}       % hyperlinks
+\usepackage{url}            % simple URL typesetting
+\usepackage{booktabs}       % professional-quality tables
+\usepackage{amsfonts, amssymb}       % blackboard math symbols
+\usepackage{nicefrac}       % compact symbols for 1/2, etc.
+\usepackage{microtype}      % microtypography
+\usepackage{bm}
+\usepackage{amsmath}
+\usepackage{algorithm}
+\usepackage{algorithmic}
+\usepackage{subfigure}
+\usepackage{wrapfig}
+
+\newtheorem{theorem}{\bf{Theorem}}
+\newtheorem{remark}{\bf{Remark}}
+
+\usepackage{color}
+\newcommand{\yongz}[1]{{\color{blue}{\bf\sf[#1]}}}
+\newcommand{\qiu}[1]{{\color{green}{\bf\sf[#1]}}}
+
+\usepackage{tikz}
+\usetikzlibrary{fit,positioning,arrows,decorations.markings}
+\setlength{\bibsep}{0.2ex}
+
+
+\title{Distributed Publicly Verifiable Randomness without Trusted Third Party}
+
+% The \author macro works with any number of authors. There are two
+% commands used to separate the names and addresses of multiple
+% authors: \And and \AND.
+%
+% Using \And between authors leaves it to LaTeX to determine where to
+% break the lines. Using \AND forces a line break at that point. So,
+% if LaTeX puts 3 of 4 authors names on the first line, and the last
+% on the second line, try using \AND instead of \And before the third
+% author name.
+
+\author{
+  Feiyang~Qiu\thanks{Use footnote for providing further
+    information about author (webpage, alternative
+    address)---\emph{not} for acknowledging funding agencies.} \\
+  Department of Computer Science\\
+  Tsinghua University\\
+  Beijing, PRC 100084 \\
+  \texttt{qfy14@mails.tsinghua.edu.cn} \\
+  \thanks{hello} \\
+  %% \And
+  %% Coauthor \\
+  %% Affiliation \\
+  %% Address \\
+  %% \texttt{email} \\
+  %% \And
+  %% Coauthor \\
+  %% Affiliation \\
+  %% Address \\
+  %% \texttt{email} \\
+}
+
+\begin{document}
+
+\maketitle
+\begin{abstract}
+  We present XXXX , a new XXXX.\cite{MMD:uai2015(example)}
+\end{abstract}
+
+\input{2-introduction}
+\yongz{problem. why it is important. our solution, contribution and paper layout.}
+
+\section{Related Work}
+\yongz{paper review:  how is our algorithm related to and different from the others, 
+including the problem settings, algorithm differences. e.g. with comparison to Dfinity}
+
+\input{4-background}
+\yongz{list technical component we used in this paper}
+
+\input{5-problem}
+\input{6-protocol}
+
+\section{Experiments}
+g
+\section{Conclusion}
+
+
+
+\bibliography{main_ref}
+\bibliographystyle{plain}
+
+\appendix
+\section{Implementation Details}
+\section{Additional Results}
+
+\end{document}
+
